@@ -1,7 +1,7 @@
-import torchvision
-import torchvision.datasets as dataset
-from torch.utils.data import DataLoader, Dataset
-import numpy as np
+"""
+Siamese Neural Network: run the image pair through a cnn twice to compare the output
+Contrastive Loss: measure the similarity of two output result
+"""
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
